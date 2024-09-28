@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ranking - Projeto de Lógica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .ranking-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .ranking-table th, .ranking-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .ranking-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .ranking-table td {
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ranking Geral e por Polo</h1>
+    </header>
+
+    <div class="container">
+        <h2>Ranking Geral (Individual)</h2>
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Nome</th>
+                    <th>Pontuação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João Silva</td>
+                    <td>850</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ana Oliveira</td>
+                    <td>820</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pedro Santos</td>
+                    <td>780</td>
+                </tr>
+                <!-- Adicione mais alunos conforme necessário -->
+            </tbody>
+        </table>
+
+        <h2>Ranking por Polo do IFS</h2>
+        <table class="ranking-table">
+            <thead>
+                <tr>
+                    <th>Posição</th>
+                    <th>Polo</th>
+                    <th>Pontuação Média</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Polo Lagarto</td>
+                    <td>820</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Polo Aracaju</td>
+                    <td>795</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Polo São Cristóvão</td>
+                    <td>750</td>
+                </tr>
+                <!-- Adicione mais polos conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>© 2024 Projeto de Lógica de Programação - Desenvolvido no Gather</p>
+    </footer>
+
+</body>
+</html>
